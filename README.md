@@ -1,14 +1,26 @@
 # mall-swarm
 
-<p>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
-  <a href="https://github.com/macrozheng/mall"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E9%A1%B9%E7%9B%AE-mall-blue.svg" alt="后台项目"></a>
-  <a href="https://github.com/macrozheng/mall-admin-web"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE-mall--admin--web-green.svg" alt="前端项目"></a>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E4%BA%A4%E6%B5%81-%E5%BE%AE%E4%BF%A1%E7%BE%A4-2BA245.svg" alt="交流"></a>
-  <a href="https://gitee.com/macrozheng/mall-swarm"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E7%A0%81%E4%BA%91-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-orange.svg" alt="码云"></a>
-</p>
+
 
 ## 项目介绍
+
+
+启动网关服务mall-gateway，直接运行MallGatewayApplication的main函数即可；
+
+启动认证中心mall-auth，直接运行MallAuthApplication的main函数即可；
+
+启动后台管理服务mall-admin，直接运行MallAdminApplication的main函数即可；
+
+启动前台服务mall-portal，直接运行MallPortalApplication的main函数即可；
+
+启动搜索服务mall-search，直接运行MallSearchApplication的main函数即可；
+
+启动监控中心mall-monitor，直接运行MallMonitorApplication的main函数即可；
+
+运行完成后可以通过监控中心查看监控信息，账号密码为macro:123456：http://localhost:8101
+
+运行完成后可以直接通过如下地址访问API文档：http://localhost:8201/doc.html
+
 
 `mall-swarm`是一套微服务商城系统，采用了 Spring Cloud Hoxton & Alibaba、Spring Boot 2.3、Oauth2、MyBatis、Docker、Elasticsearch等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。`mall-swarm`在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。 文档齐全，附带全套Spring Cloud教程。 
 
